@@ -19,6 +19,7 @@ Installation
 $ git clone https://github.com/imZack/resume-kelvin
 ```
 
+
 **Install Node Dependencies & Gulp**
 ```bash
 $ npm install
@@ -46,11 +47,13 @@ visit `http://localhost:3000`
 
 
 **Build (Optional)**
+
 Pack with optimization all source and assests to `build` folder for deploy purpose.
 
 ```bash
 $ gulp build
 ```
+
 
 **Deploy (Optional)**
 
