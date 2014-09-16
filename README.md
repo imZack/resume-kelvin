@@ -30,6 +30,7 @@ $ npm install gulp
 Usage
 -----
 **Writing and Preview**
+
 ```bash
 $ gulp
 
@@ -51,9 +52,22 @@ $ gulp build
 ```
 
 **Deploy (Optional)**
-This command will build & deploy to your remote reposity `gh-pages` branch
 
+**In first time**, you have to do the following commands (from [gulp-gh-pages](https://github.com/rowoot/gulp-gh-pages#usage))
+
+```bash
+$ git checkout --orphan gh-pages
+$ git rm -rf .
+$ touch README.md
+$ git add README.md
+$ git commit -m "Init gh-pages"
+$ git push --set-upstream origin gh-pages
+$ git checkout master
 ```
+
+This command will build & deploy to your remote repository branch `gh-pages` 
+
+```bash
 $ gulp deploy
 ```
 
