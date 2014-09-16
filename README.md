@@ -1,6 +1,8 @@
 Kelvin - Resume Theme
 =====================
 
+![william t kelvin](https://cloud.githubusercontent.com/assets/690703/4290929/0552ac22-3dc0-11e4-88a6-1ab8c245aab2.png)
+
 Feature
 -------
 - Based on [Bootstrap 3.0]() Easy to customize!
@@ -76,7 +78,7 @@ $ gulp deploy
 ```
 
 
-Licence
+License
 -------
 ![](https://i.creativecommons.org/l/by/3.0/88x31.png)
 
