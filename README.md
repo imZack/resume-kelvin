@@ -3,13 +3,13 @@ Kelvin - Resume Theme
 
 Feature
 -------
-- Based on [Bootstrap 3.0]() Easy to customise!
+- Based on [Bootstrap 3.0]() Easy to customize!
 - Support [Gulp](gulpjs.com)  blazing fast!
 - Support [BrowserSync](http://www.browsersync.io/) Synchronising between devices!
 - ... and it's beautiful created by [Blacktie.co](http://blacktie.co)!
 
-[Online Demo]()
 
+[Online Demo](http://imZack.github.io/resume-kelvin)
 
 
 Installation
@@ -42,7 +42,8 @@ $ gulp
   [BS] Serving files from: ./
 
 ```
-visit `http://localhost:3000` or you could change port with argument `--port <port_you_want>`
+visit `http://localhost:3000`
+
 
 **Build (Optional)**
 Pack with optimization all source and assests to `build` folder for deploy purpose.
