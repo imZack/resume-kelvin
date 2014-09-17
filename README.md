@@ -5,9 +5,9 @@ Kelvin - Resume Theme
 
 Feature
 -------
-- Based on [Bootstrap 3.0]() Easy to customize!
-- Support [Gulp](gulpjs.com)  blazing fast!
-- Support [BrowserSync](http://www.browsersync.io/) Synchronising between devices!
+- Based on [Bootstrap 3.0]() **Easy to customize!**
+- Support [Gulp](gulpjs.com)  **Blazing fast!**
+- Support [BrowserSync](http://www.browsersync.io/) **Synchronising between devices!**
 - ... and it's beautiful created by [Blacktie.co](http://blacktie.co)!
 
 
@@ -16,7 +16,17 @@ Feature
 
 Installation
 ------------
-**Clone this repo**
+
+There are two ways to get this awesome resume:
+
+**1. Fork this repo** (Recommended)
+
+[Click me to fork](https://github.com/imZack/resume-kelvin/fork)
+
+> If you fork this repo, you could simply publish as your project page later.
+
+
+**2. Clone this repo**
 ```bash
 $ git clone https://github.com/imZack/resume-kelvin
 ```
@@ -24,11 +34,12 @@ $ git clone https://github.com/imZack/resume-kelvin
 
 **Install Node Dependencies & Gulp**
 ```bash
-$ npm install
 $ npm install -g gulp
 $ npm install gulp
+$ npm install
 ```
 
+> If you have errors during the installation, please try to clean your npm cache via `$ npm cache clean`.
 
 Usage
 -----
@@ -50,37 +61,42 @@ visit `http://localhost:3000`
 
 **Build (Optional)**
 
-Pack with optimization all source and assests to `build` folder for deploy purpose.
+Build and optimize all sources and assests for deploy purpose.
 
 ```bash
 $ gulp build
 ```
 
+Once you buit the resume successfully, the files will be `build` folder. You could just upload it to your web hosting or something.
+
 
 **Deploy (Optional)**
 
-**In first time**, you have to do the following commands (from [gulp-gh-pages](https://github.com/rowoot/gulp-gh-pages#usage))
+The steps below is for who forked this repo directly and cloned into local repo.
+
+**At the first time**, you have to do the following commands:
 
 ```bash
-$ git checkout --orphan gh-pages
-$ git rm -rf .
-$ touch README.md
-$ git add README.md
-$ git commit -m "Init gh-pages"
-$ git push --set-upstream origin gh-pages
-$ git checkout master
+git checkout --track origin/gh-pages
+git checkout master
 ```
 
-This command will build & deploy to your remote repository branch `gh-pages` 
+Above command is for fetching the remote branch to local repo and tracking it. Now modify some words or images and then deploy it!
 
 ```bash
 $ gulp deploy
 ```
 
+This command will build & deploy to your remote repository branch `gh-pages`, so if your repo name is `resume-kelvin` go visit https://username.github.io/resume-kelvin That's it!
+
+> Changes may take up to ten minutes to be visible.
+
+> More information about github pages [Link](https://pages.github.com/)
+
 
 License
 -------
-![](https://i.creativecommons.org/l/by/3.0/88x31.png)
+[![](https://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0/)
 
 [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/)
 
