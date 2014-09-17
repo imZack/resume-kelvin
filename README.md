@@ -3,15 +3,33 @@ Kelvin - Resume Theme
 
 ![william t kelvin](https://cloud.githubusercontent.com/assets/690703/4290929/0552ac22-3dc0-11e4-88a6-1ab8c245aab2.png)
 
-Feature
--------
+[Online Demo](http://imZack.github.io/resume-kelvin)
+
+
+Features
+--------
 - Based on [Bootstrap 3.0]() **Easy to customize!**
 - Support [Gulp](gulpjs.com)  **Blazing fast!**
 - Support [BrowserSync](http://www.browsersync.io/) **Synchronising between devices!**
 - ... and it's beautiful created by [Blacktie.co](http://blacktie.co)!
 
 
-[Online Demo](http://imZack.github.io/resume-kelvin)
+Quick Start
+-----------
+
+1. [Fork this repo](https://github.com/imZack/resume-kelvin/fork)
+2. Do the following commands:
+
+```bash
+$ git clone https://github.com/YOUR_USERNAME/resume-kelvin
+$ npm install -g gulp && npm install gulp && npm install
+$ git checkout --track origin/gh-pages && git checkout master
+/****** Modify some content *****/
+$ gulp deploy
+```
+
+Go visit https://YOUR_USERNAME.github.io/resume-kelvin
+
 
 
 Installation
@@ -23,7 +41,7 @@ There are two ways to get this awesome resume:
 
 [Click me to fork](https://github.com/imZack/resume-kelvin/fork)
 
-> If you fork this repo, you could simply publish as your project page later.
+> If you fork this repo, you could simply publish as your project page later without settings.
 
 
 **2. Clone this repo**
@@ -32,7 +50,7 @@ $ git clone https://github.com/imZack/resume-kelvin
 ```
 
 
-**Install Node Dependencies & Gulp**
+**Install Gulp & Node Dependencies**
 ```bash
 $ npm install -g gulp
 $ npm install gulp
@@ -41,9 +59,10 @@ $ npm install
 
 > If you have errors during the installation, please try to clean your npm cache via `$ npm cache clean`.
 
+
 Usage
 -----
-**Writing and Preview**
+**Writing and Live Preview**
 
 ```bash
 $ gulp
@@ -67,18 +86,18 @@ Build and optimize all sources and assests for deploy purpose.
 $ gulp build
 ```
 
-Once you buit the resume successfully, the files will be `build` folder. You could just upload it to your web hosting or something.
+Once you buit the resume successfully, the files will be generated in `build` folder. You could just upload it to your web hosting or somewhere else.
 
 
 **Deploy (Optional)**
 
-The steps below is for who forked this repo directly and cloned into local repo.
+The steps below are for who forked this repo directly and cloned into local repo.
 
 **At the first time**, you have to do the following commands:
 
 ```bash
-git checkout --track origin/gh-pages
-git checkout master
+$ git checkout --track origin/gh-pages
+$ git checkout master
 ```
 
 Above command is for fetching the remote branch to local repo and tracking it. Now modify some words or images and then deploy it!
