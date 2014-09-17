@@ -122,3 +122,6 @@ License
 Modified By [YuLun Shih](http://yulun.me)
 
 Theme created by [Blacktie.co](http://blacktie.co)
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-54905027-1/imZack/resume-kelvin)](https://github.com/igrigorik/ga-beacon)
