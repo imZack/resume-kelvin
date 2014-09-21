@@ -1,9 +1,11 @@
- /* Author: Carlos Alvarez
- * URL: http://alvarez.is
+ /* 
+ * Author:
+ *   YuLun Shih (http://yulun.me)
+ *   Carlos Alvarez (http://alvarez.is)
  *
  * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
- * Version: 1.0
- * URL: http://blacktie.co
+ * Version: 1.1
+ * Github: https://github.com/imZack/resume-kelvin
  */
 
 body {
@@ -246,6 +248,12 @@ a:after {
 	background: #222222;
 	padding-top: 15px;
 	text-align: right;
+}
+
+@media (max-width: 360px) {
+  #c {
+    font-size: 10px;
+  }
 }
 
 #c p {
